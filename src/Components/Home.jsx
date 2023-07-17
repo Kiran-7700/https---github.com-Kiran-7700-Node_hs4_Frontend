@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <nav>
-            <a className="navbar-brand" href='#'><h3>Brand Name</h3></a>
+            <a href='#' className="navbar-brand"><h3>Brand Name</h3></a>
 
             <div className="navbarCollapse">
                 <a href='#'>Home</a>
