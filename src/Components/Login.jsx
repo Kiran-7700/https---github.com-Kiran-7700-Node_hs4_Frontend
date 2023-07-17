@@ -51,10 +51,10 @@ function Login() {
             />
           </div>
           <div className="button_group" id="login_button">
-            <a onClick={submit}>Submit</a>
+            <a onClick={submit} href='#'>Submit</a>
           </div>
           <div className="footer">
-            <a >Forgot Password ?</a>
+            <a href='#'>Forgot Password ?</a>
             <Link to="/register" className='link'>SignUp</Link>
           </div>
         </div>
