@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <nav>
-            <a className="navbar-brand"><h3>Brand Name</h3></a>
+            <a className="navbar-brand" href='#'><h3>Brand Name</h3></a>
 
             <div className="navbarCollapse">
-                <a>Home</a>
-                <a>About</a>
-                <a>Services</a>
-                <a>Blog</a>
-                <a>Contact</a>
+                <a href='#'>Home</a>
+                <a href='#'>About</a>
+                <a href='#'>Services</a>
+                <a href='#'>Blog</a>
+                <a href='#'>Contact</a>
             </div>
 
             <div >
@@ -35,3 +35,4 @@ function Home() {
 }
 
 export default Home
+         
