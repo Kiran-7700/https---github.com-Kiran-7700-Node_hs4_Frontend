@@ -120,6 +120,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #00ccff;
 }
 .footer {
   margin-top: 30px;
@@ -131,6 +132,7 @@ h2 {
   cursor: pointer;
   font-size: 18px;
   padding-top: 20px;
+  color: #00ccff;
 }
 .footer .link{
   text-decoration: none;
@@ -141,3 +143,4 @@ h2 {
 .glowIcon {
   text-shadow: 0 0 10px #00ccff;
 }
+
