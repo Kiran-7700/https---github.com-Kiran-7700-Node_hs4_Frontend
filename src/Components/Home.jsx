@@ -5,14 +5,16 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <nav>
-            <a href='#' className="navbar-brand"><h3>Brand Name</h3></a>
+            <h1 className="navbar-brand">Brand Name</h1>
 
             <div className="navbarCollapse">
-                <a href='#'>Home</a>
-                <a href='#'>About</a>
-                <a href='#'>Services</a>
-                <a href='#'>Blog</a>
-                <a href='#'>Contact</a>
+                <ul className='ul'>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
             </div>
 
             <div >
@@ -26,7 +28,6 @@ function Home() {
                 <div className="signUp">
                     <Link to="/register" className='link'>Register</Link>
                 </div>
-
             </div>
 
         </nav>
@@ -35,4 +36,3 @@ function Home() {
 }
 
 export default Home
-         

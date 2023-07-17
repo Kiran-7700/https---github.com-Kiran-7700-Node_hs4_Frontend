@@ -9,12 +9,16 @@ nav{
 	border-bottom: 1px solid #dfe3e8;
     padding-top: 20px;
 }
-.navbarCollapse a{
-   padding-top: 20px;
-    margin-left: 20px;
+.navbarCollapse .ul{
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
     font-size: 20px;
-    text-decoration: none;
     font-family: 'Fasthand', cursive;
+    cursor: pointer;
+}
+.navbarCollapse .ul li{
+    margin-left: 30px;
 }
 .search{
     height: 40px;
@@ -33,10 +37,10 @@ input::placeholder {
 }
 .navbar-brand{
     padding-left: 0;
-	font-size: 25px;
-	padding-right: 50px;
+	font-size: 32px;
     color: aquamarine;
     text-decoration: none;
+    cursor: pointer;
 }
 .login{
     background-color: #4CAF50; 

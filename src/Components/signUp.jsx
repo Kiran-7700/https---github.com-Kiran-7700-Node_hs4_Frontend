@@ -69,7 +69,7 @@ function SignUp() {
             />
           </div>
           <div className="button_group" id="login_button">
-            <a href='#' onClick={submit}>Sign Up</a>
+            <p onClick={submit}>Sign Up</p>
           </div>
         </div>
       </div>
